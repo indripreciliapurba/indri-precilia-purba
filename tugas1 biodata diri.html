@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biodata Diri</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: aliceblue;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start; /* Align content at the top */
+                height: 100vh;
+                padding-top: 50px; /* Add space at the top */
+            }
+            .biodata-container {
+                background-color: aliceblue;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+                width: 800px; /* Make container wider to accommodate large photo */
+                display: flex;
+                flex-direction: row; /* Align content in a row */
+                align-items: flex-start; /* Align vertically at the start */
+                justify-content: space-between; /* Space between text and photo */
+                text-align: left;
+            }
+            .biodata-content {
+                flex: 1; /* Make text content take available space */
+                margin-right: 30px; /* Add space between content and image */
+            }
+            .biodata-container img {
+                width: 250px; /* Increase the image width */
+                height: 250px; /* Increase the image height */
+                border-radius: 50%; /* Make the photo round */
+                object-fit: cover; /* Ensure the image fits well inside the circle */
+            }
+            .biodata-container h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: palevioletred;
+            }
+            .biodata-container h2 {
+                margin: 10px 0;
+                color: plum;
+            }
+            .biodata-container p {
+                margin: 5px 0;
+                color: black;
+            }
+            .biodata-container a {
+                color: blue;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="biodata-container">
+            <!-- Biodata Content on the Left -->
+            <div class="biodata-content">
+                <h1>Biodata Diri</h1>
+                <h2>Nama: Indri precilia br purba</h2>
+                <p>Tempat, Tanggal Lahir: Lubuk Linggau, 11 Mei 2006</p>
+                <p>Jenis Kelamin: Wanita</p>
+                <p>Alamat: Jl.Rukun no 16 Lk.Juani</p>
+                <p>Agama: Kristen Protestan</p>
+                <p>Status Pendidikan: Mahasiswa</p>
+                <p>Umur: 19 thn</p>
+                <p>Email: <a href="mailto:indripurba1105@gmail.com">indripurba1105@gmail.com</a></p>
+                <p>NIM Mahasiswa: 2403310902</p>
+                <p>Kelas: IFC SG</p>
+            </div>
+            <!-- Larger Photo on the Right -->
+            <img src="c:\Users\Indri Purba\Pictures\WhatsApp Image 2025-03-13 at 18.39.17_1c05dbd2.jpg" alt="Foto Nurleli Ginting">
+        </div>
+    </body>
+</html>
